@@ -1,0 +1,68 @@
+body {
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.top-header-bar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px purple solid;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+}
+
+.top-header-bar > li {
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.top-header-bar > li:hover {
+    color: gray;
+    font-size: 2em;
+}
+
+.subpage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    width: 98%;
+}
+
+
+.subpage > img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage > p {
+    width: 60%;
+}
+
+.invisible{
+    display: none;
+}
+
+a {
+    font-size: 30px;
+}
